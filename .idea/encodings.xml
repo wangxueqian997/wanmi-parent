@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-API" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-producer-user-10001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-producer-user-10001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-server-40001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-server-40001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-shiro-30001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-shiro-30001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-zuul-20001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanmi-zuul-20001/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+server:
+  port: 60018
+spring:
+  application:
+    name: user
+  datasource:
+    name: druid,db2 #数据库名，第一个druid名字不能动,后续名自己定义
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid: #药房模块数据库
+      url: jdbc:mysql://localhost:3306/hospital_public?serverTimezone=UTC
+      username: root
+      password: root
+      dbcp2:
+        min-idle: 5
+        initial-size: 5
+        max-total: 5
+        max-wait-millis: 2000
+    db2: #公共模块数据库数据库
+      url: jdbc:mysql://localhost:3306/hospital_public?serverTimezone=UTC
+      username: root
+      password: root
+      dbcp2:
+        min-idle: 5
+        initial-size: 5
+        max-total: 5
+        max-wait-millis: 2000
+  thymeleaf:
+    cache: false
+    mybatis:
+      type-aliases-package: com.tcode.bean
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:10001/eureka/,http://localhost:10002/eureka/

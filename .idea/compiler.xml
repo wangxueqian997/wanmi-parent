@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wanmi-server-40001" />
+        <module name="wanmi-zuul-20001" />
+        <module name="wanmi-producer-user-10001" />
+        <module name="wanmi-API" />
+        <module name="wanmi-shiro-30001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wanmi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wanmi" options="-parameters" />
+      <module name="wanmi-API" options="-parameters" />
+      <module name="wanmi-producer-user-10001" options="-parameters" />
+      <module name="wanmi-server-40001" options="-parameters" />
+      <module name="wanmi-shiro-30001" options="-parameters" />
+      <module name="wanmi-zuul-20001" options="-parameters" />
+    </option>
+  </component>
+</project>

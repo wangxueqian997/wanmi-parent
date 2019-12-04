@@ -1,0 +1,42 @@
+server:
+  port: 40001
+spring:
+  aop:
+    auto: true
+    proxy-target-class: false
+  application:
+    name: shiro #\u670D\u52A1\u540DID
+  datasource:
+    name: druid,db2 #\u6570\u636E\u5E93\u540D\uFF0C\u7B2C\u4E00\u4E2Adruid\u540D\u5B57\u4E0D\u80FD\u52A8,\u540E\u7EED\u540D\u81EA\u5DF1\u5B9A\u4E49
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid: #\u95E8\u8BCA\u6A21\u5757\u6570\u636E\u5E93
+      url: jdbc:mysql://localhost:3306/outpatientDepartment?serverTimezone=UTC
+      username: root
+      password: root
+      dbcp2:
+        min-idle: 5
+        initial-size: 5
+        max-total: 5
+        max-wait-millis: 2000
+    db2: #\u516C\u5171\u6A21\u5757\u6570\u636E\u5E93\u6570\u636E\u5E93
+      url: jdbc:mysql://localhost:3306/hospital_public?serverTimezone=UTC
+      username: root
+      password: root
+      dbcp2:
+        min-idle: 5
+        initial-size: 5
+        max-total: 5
+        max-wait-millis: 2000
+  thymeleaf:
+    cache: false
+    mybatis:
+      type-aliases-package: com.tcode.bean
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:10001/eureka/,http://localhost:10002/eureka/
+swagger2:
+  enable: true

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbe5bb19-fe3e-44e4-b5cb-555e60d64a9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/wanmi-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-API/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-API/src/main/java/com/code/wanmi/entity/login/ResponseBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-API/src/main/java/com/code/wanmi/entity/login/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-API/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-API/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/src/main/java/com/code/wanmi/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/src/main/java/com/code/wanmi/WanmiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-producer-user-10001/src/test/java/com/code/wanmi/WanmiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/src/main/java/com/code/server/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/src/main/resources/application-server001.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/src/main/resources/application-server002.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-server-40001/src/test/java/com/code/server/ServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/ShiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/bean/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/bean/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/JWTToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/JWTUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/StatelessDefaultSubjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/config/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/exception/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/login/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/login/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/login/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DataSourceAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DataSourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DynamicDataSourceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com/code/shiro/util/DynamicDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-shiro-30001/src/test/java/com/code/shiro/ShiroApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/src/main/java/com/code/wanmi/WanmiZuul20001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanmi-zuul-20001/src/test/java/com/code/wanmi/WanmiZuul20001ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UShBniOcAxj0QoTGCsKzRP02Uu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/wanmi-shiro-30001/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\wanmi项目\wanmi-parent\wanmi-API\src\main\java\com\code\wanmi\entity\login" />
+      <recent name="C:\Users\Administrator\Desktop\wanmi项目\wanmi-parent\wanmi-shiro-30001\src\main\java\com\code\shiro" />
+      <recent name="C:\Users\Administrator\Desktop\wanmi项目\wanmi-parent\wanmi-shiro-30001\src\main\java\com\code\shiro\service" />
+      <recent name="C:\Users\Administrator\Desktop\wanmi项目\wanmi-parent\wanmi-shiro-30001\src\main\java\com\code\shiro\config" />
+      <recent name="C:\Users\Administrator\Desktop\wanmi\wanmi-parent\wanmi-producer-user-10001\src\main\java\com\code\wanmi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.server002">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wanmi-shiro-30001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.shiro.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wanmi-shiro-30001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.shiro.ShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WanmiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wanmi-producer-user-10001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.wanmi.WanmiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WanmiZuul20001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wanmi-zuul-20001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.wanmi.WanmiZuul20001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wanmi-server-40001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.server.ServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=server001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wanmi-server-40001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.code.server.ServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=server002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShiroApplication" />
+      <item itemvalue="Spring Boot.WanmiApplication" />
+      <item itemvalue="Spring Boot.server001" />
+      <item itemvalue="Spring Boot.server002" />
+      <item itemvalue="Spring Boot.WanmiZuul20001Application" />
+      <item itemvalue="Spring Boot.ShiroApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShiroApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbe5bb19-fe3e-44e4-b5cb-555e60d64a9b" name="Default Changelist" comment="" />
+      <created>1575355770788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575355770788</updated>
+      <workItem from="1575355775606" duration="652000" />
+      <workItem from="1575363547353" duration="1053000" />
+      <workItem from="1575365282893" duration="945000" />
+      <workItem from="1575366259588" duration="1716000" />
+      <workItem from="1575368016492" duration="1503000" />
+      <workItem from="1575369556047" duration="4255000" />
+      <workItem from="1575422518866" duration="1186000" />
+      <workItem from="1575424437938" duration="11609000" />
+      <workItem from="1575448604599" duration="270000" />
+      <workItem from="1575449976319" duration="8000" />
+      <workItem from="1575450006419" duration="911000" />
+      <workItem from="1575450974727" duration="320000" />
+      <workItem from="1575451318311" duration="34000" />
+      <workItem from="1575451572449" duration="435000" />
+      <workItem from="1575452026769" duration="579000" />
+    </task>
+    <task id="LOCAL-00001" summary="姜均:第一次提交万米项目">
+      <created>1575450551214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575450551214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="姜均:第一次提交万米项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="姜均:第一次提交万米项目" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="6" key="#Project_Structure" timestamp="1575373398253">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="292" y="6" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1575373398253" />
+    <state x="98" y="44" width="1361" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575423715555">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="98" y="44" width="1361" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1575423715555" />
+    <state x="561" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1575443828492">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="561" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1575443828492" />
+    <state x="586" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575375158571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="586" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1575375158571" />
+    <state x="221" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575444894382">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="221" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1575444894382" />
+    <state x="467" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575445946345">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="467" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1575445946345" />
+    <state x="530" y="133" key="FileChooserDialogImpl" timestamp="1575448774644">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="133" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1575448774644" />
+    <state width="1544" height="207" key="GridCell.Tab.0.bottom" timestamp="1575448573143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575448573143" />
+    <state width="1544" height="207" key="GridCell.Tab.0.center" timestamp="1575448573143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1575448573143" />
+    <state width="1544" height="207" key="GridCell.Tab.0.left" timestamp="1575448573143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1575448573143" />
+    <state width="1544" height="207" key="GridCell.Tab.0.right" timestamp="1575448573143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1575448573143" />
+    <state width="1544" height="207" key="GridCell.Tab.1.bottom" timestamp="1575448573144">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575448573144" />
+    <state width="1544" height="207" key="GridCell.Tab.1.center" timestamp="1575448573144">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1575448573144" />
+    <state width="1544" height="207" key="GridCell.Tab.1.left" timestamp="1575448573143">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1575448573143" />
+    <state width="1544" height="207" key="GridCell.Tab.1.right" timestamp="1575448573144">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1544" height="207" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1575448573144" />
+    <state x="217" y="8" key="Maven.ArtifactSearchDialog" timestamp="1575445657762">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="217" y="8" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1575445657762" />
+    <state x="191" y="0" key="SettingsEditor" timestamp="1575448505343">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="191" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1575448505343" />
+    <state x="573" y="196" key="chooseDestDirectoryDialog" timestamp="1575444300558">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="573" y="196" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1575444300558" />
+    <state x="432" y="219" key="com.intellij.ide.util.TipDialog" timestamp="1575448610073">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="432" y="219" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1575448610073" />
+    <state x="0" y="85" width="1600" height="685" key="new project wizard" timestamp="1575368248184">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="85" width="1600" height="685" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1575368248184" />
+  </component>
+</project>

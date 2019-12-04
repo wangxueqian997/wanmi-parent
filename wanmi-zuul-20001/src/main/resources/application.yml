@@ -1,0 +1,49 @@
+server:
+  port: 30001
+spring:
+  application:
+    name: consumers
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hospital_public?serverTimezone=UTC
+    username: root
+    password: root
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 2000
+  thymeleaf:
+    cache: false
+    mybatis:
+      type-aliases-package: com.tcode.bean
+zuul:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  routes:
+    feign:
+      path: /shiro/**
+      serviceId: shiro
+      #修改zuul配置,转发head信息到后端
+  sensitive-headers: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:10001/eureka,http://localhost:10002/eureka
+#熔断机制
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+
+#负载均衡
+ribbon:
+  ConnectionTimeout: 500
+  ReadTimeout: 2000
