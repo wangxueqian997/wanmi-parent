@@ -208,7 +208,7 @@
       <workItem from="1575450974727" duration="320000" />
       <workItem from="1575451318311" duration="34000" />
       <workItem from="1575451572449" duration="435000" />
-      <workItem from="1575452026769" duration="1725000" />
+      <workItem from="1575452026769" duration="1967000" />
     </task>
     <task id="LOCAL-00001" summary="姜均:第一次提交万米项目">
       <created>1575450551214</created>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575454147036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="姜均:测试提交万米项目">
+      <created>1575454468329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575454468329</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +262,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="姜均:第一次提交万米项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="姜均:第一次提交万米项目" />
+    <MESSAGE value="姜均:测试提交万米项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="姜均:测试提交万米项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="292" y="6" key="#Project_Structure" timestamp="1575373398253">
